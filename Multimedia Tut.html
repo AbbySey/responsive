@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multimedia</title>
+<meta charset="UTF-8"/>
+<meta name="description" content="Adding multimedia to our site.">
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="pagebox">
+<header>
+<h1>Multimedia Fans</h1>
+</header>
+
+<nav>
+<div class="topnav">
+<a class="current" href="index.html">Home</a>
+<a href="#">Content</a>
+<a href="#">About Us</a>
+</div>
+</nav>
+
+<article>
+<section>
+<h2>Small Image</h2>
+<p>
+<img class="smallpic" src="images/pic1.jpg" alt="Picture of Mircophone">
+Here is some text to go  along with our small floated image.</p>
+<hr/>
+</section>
+
+<section>
+<h2>Large Image</h2>
+<img class="bigpic" src="images/pic2.jpg" alt="Picture of camera">
+<p>Here is some text to go along with out large image.</p>
+<hr/>
+</section>
+
+<section>
+<h2>Sound</h2>
+<audio controls>
+<source src="audio/sound1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<p>Ukulele can be downloaded free at bensound.com</p>
+<hr/>
+</section>
+
+<section id="slideshow">
+<h2>Slideshow</h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<div class="numbertext">1 / 2</div>
+<img src="images/pic1.jpg" style="width: 100%;">
+<div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">2 / 2</div>
+<img src="images/pic2.jpg" style="width: 100%;">
+<div class="text">Caption Two</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)"></a>
+<a class="prev" onclick="plusSlides(1)"></a>
+
+</div>
+<br>
+
+<div style="text-align: center;">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+<hr/>
+</section>
+
+<section>
+<h2>Video</h2>
+<div class="Video_containter">
+<iframe src="https://www.youtube.com/embed/wcWwfi7UjJk?si=ypyo3mAo5vnd2l5S"></iframe>
+</div>
+<hr/>
+</section>
+</article>
+
+<footer>
+<p>This page was created by Abagail &copy; 2023</p>
+</footer>
+</div>
+</body>
+</html>

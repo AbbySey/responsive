@@ -1,0 +1,98 @@
+/* CSS Document for portfolio page */
+
+body{
+    background-color: aliceblue;
+}
+
+.pagebox{
+    background-color: antiquewhite;
+    width: 70%;
+    margin: auto;
+    max-width: 900px;
+}
+
+header{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+h1{
+    font-size: 71px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.topnav{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: beige;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a{
+    display: inline-block;
+    color: bisque;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: aquamarine;
+}
+
+.current{
+    background-color: beige;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(151, 215, 194);
+}
+
+.smallpic{
+    width: 33%;
+    float: left;
+    padding: 3px;
+}
+
+hr{clear: both;}
+
+.bigpic{
+    width: 100%;
+}
+
+audio{width: 50%;}
+
+footer{
+    font-style: italic;
+    text-align: center;
+}
+
+@media only screen and (max-width: 568px) {
+h1{font-size: 42px;}
+#slideshow{display: none;}}
+
+@media only screen and (max-width: 568px) {
+.pagebox{width: 90%;}
+.topnav{width: 100%;
+overflow: hidden;
+padding: 0%;}
+.topnav a{width: 100%;
+display: block;
+text-align: center;
+background-color: antiquewhite;
+border-style: solid;
+border-width: 1px;
+border-color: black;}
+.smallpic{
+    width: 100%;
+}
+audio{width: 100%;}}
